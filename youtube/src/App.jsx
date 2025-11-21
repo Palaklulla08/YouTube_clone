@@ -1,13 +1,19 @@
 import Navbar from './components/Navbar'
 import './App.css'
+import SideMenu from './components/SideMenu'
+import Homepage from './pages/homepage'
 
 function App() {
   
 
   return (
     <>
-     <Navbar/>
-     <HomePage/>
+    <div className='app-container'> 
+      <Navbar/>
+     <Homepage/>
+     {/* <SideMenu/> */}</div>
+    
+    
     </>
   )
 }
