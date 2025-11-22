@@ -1,9 +1,5 @@
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import "tailwindcss"; */
-/* .app-container{
-    font-family: 'Roboto', sans-serif;
-    width: auto;
-    height: auto;
+.app-container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-   */
