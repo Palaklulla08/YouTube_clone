@@ -6,7 +6,7 @@ function Home({sideNavbar}){
     return(
         <>
         <SideNavbar sideNavbar={sideNavbar}/>
-        <HomePage/>
+        <HomePage sideNavbar={sideNavbar} />
         </>
     )
 
